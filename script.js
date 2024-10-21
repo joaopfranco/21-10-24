@@ -13,5 +13,10 @@ function cadpn() {
 function cadpp() {
     for (let i = 0; i <= 5; i++) {
         pn[i] = parseFloat(prompt("Digite o nome do produto"))
-        console.log(pn);
+        console.log(pp);
     }
+}
+
+function cp({
+    
+})
