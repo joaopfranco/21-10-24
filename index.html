@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savinis.est</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <div class="container">
+            <h1>Seja Bem-Vindo(a) a Savinis</h1>
+            <hr>
+            <p>Você deseja cadastrar uma peça ou comprar uma peça
+                <br>
+                (Inicialmente, o sistema esta zerado, então cadastre uma nova peça)
+                <br>
+                Infelizmente nosso estoque só está com capacidade para 15 produtos
+            </p>
+            <div class="cadastro">
+                <h2>Cadastrar</h2>
+                <p>Informe o nome do produto</p>
+                <input type="text" name="cadastrar" id="pn">
+                <button onclick="cadpn()">Cadastrar</button>
+                <p>Informe o preço do produto</p>
+                <input type="number" name="cadastrar" id="pp">
+                <button onclick="cadpp()">Cadastrar</button>
+                <br>
+            </div>
+            <div class="compra">
+                <h2>Comprar</h2>
+                <p>Informe o nome do produto a ser comprado</p>
+                <input type="text" name="comprar" id="comp">
+                <button onclick="cp()">Comprar</button>
+                <p>Informe o preço do produto a ser comprado</p>
+                <input type="number" name="comprar" id="comp">
+                <button onclick="cpp()">Comprar</button>
+            </div>
+            <div class="saldo">
+                <h2>Saldo em Estoque</h2>
+                <p>Está disponível em estoque R$ <span id="saldo"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
